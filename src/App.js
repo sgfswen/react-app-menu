@@ -1,5 +1,6 @@
 import React from 'react';
-import FoodList from './FoodList'
+import FoodList from './FoodList';
+import CheckoutControl from './CheckoutControl';
 
 
 const FOOD_RAW_DATA = [
@@ -16,6 +17,8 @@ class App extends React.Component {
       <h1>Hi Ethan</h1>
       <hr/>
       <FoodList food_raw_data={FOOD_RAW_DATA} / >
+      <hr/>
+      <CheckoutControl />
     </div>
     )
   }

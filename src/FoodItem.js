@@ -37,7 +37,6 @@ class FoodItem extends React.Component {
       		<button onClick={this.updateIncrease.bind(this)}>+</button>&nbsp;{this.state.number}&nbsp;
       		<button onClick={this.updateDecrease.bind(this)}>-</button>&nbsp;Total Price: {this.state.totalPrice}
       		</p>
-      		<hr/>
     	</li>
     	)
   	}
